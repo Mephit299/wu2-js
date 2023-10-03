@@ -7,15 +7,20 @@ export function setupPractice (element) {
 
   // Samtliga delar finns förklarade/beskrivna https://webbutveckling.jensa.dev/tekniker/javascript/
   varsAndTypes(element)
-  let numer = 69;
+  let nummer = 69;
   const txt = "Trevlig";
   var gratisF = true; //ska inte användas i vår kurs
-  console.log(numer, typeof(numer))
+  console.log(nummer, typeof(nummer))
   console.log(txt, typeof(txt))
   console.log(gratisF, typeof(gratisF))
 
   operators(element)
-
+  for (let i = 0; i < 2; i++) {
+    console.log(i === 1)
+  }
+  let negativNummer;
+  negativNummer -= 69
+  console.log(negativNummer === -69)
 
   controlStructures(element)
 
