@@ -31,6 +31,10 @@ export function setupPractice (element) {
   }
 
   arraysAndObjects(element)
+  let pog = new Array("I","exist","i","suppose",'but',`i`, 'do',"not","know","why",`.`);
+  pog.forEach(element => {
+    console.log(element)   
+  });
 
 
   domAndEvents(element)
