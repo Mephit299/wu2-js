@@ -12,6 +12,7 @@ export function setupPractice (element) {
   arraysAndObjects(element)
   domAndEvents(element)
   domManipulation(element)
+  såDåligKodSomMöjligt(element)
 
 }
 
@@ -88,9 +89,25 @@ function domManipulation (element) {
   divider.addEventListener("click", (e) => {
     if(e.altKey && e.ctrlKey)
       divider.remove()
-    
-  })
+    })
   // kod för att visa vad du lärt dig om DOM-manipulation
   // skapa element och lägga till och ta bort
   // element.textContent = 'dom manipulation, ändra och lägg till element'
+}
+
+function såDåligKodSomMöjligt(element){
+  let i = 0
+  while(true){
+    try {
+      console.log(yes)
+    } catch (error) {
+      console.log("pog")
+      var yes = 1;
+    }
+    i++
+    if(i === 10)
+    break
+    
+  
+}
 }
