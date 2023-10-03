@@ -18,12 +18,17 @@ export function setupPractice (element) {
   for (let i = 0; i < 2; i++) {
     console.log(i === 1)
   }
-  let negativNummer;
+  let negativNummer = 0;
   negativNummer -= 69
+  console.log(negativNummer)
   console.log(negativNummer === -69)
 
   controlStructures(element)
-
+  let trevligt = new Array("69",'1337',`420`,404,true)
+  for (let i = 0; i < trevligt.length; i++) {
+    if(typeof(trevligt[i]) === typeof(i))
+      console.log("På platsen " + i + " finns det ett nummer.")
+  }
 
   arraysAndObjects(element)
 
