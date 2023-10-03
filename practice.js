@@ -27,7 +27,7 @@ export function setupPractice (element) {
   let trevligt = new Array("69",'1337',`420`,404,true)
   for (let i = 0; i < trevligt.length; i++) {
     if(typeof(trevligt[i]) === typeof(i))
-      console.log("På platsen " + i + " finns det ett nummer.")
+      console.log("På platsen " + i + " finns det ett nummer i arrayen.")
   }
 
   arraysAndObjects(element)
