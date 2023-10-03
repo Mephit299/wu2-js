@@ -7,11 +7,27 @@ export function setupPractice (element) {
 
   // Samtliga delar finns förklarade/beskrivna https://webbutveckling.jensa.dev/tekniker/javascript/
   varsAndTypes(element)
+  let numer = 69;
+  const txt = "Trevlig";
+  var gratisF = true; //ska inte användas i vår kurs
+  console.log(numer, typeof(numer))
+  console.log(txt, typeof(txt))
+  console.log(gratisF, typeof(gratisF))
+
   operators(element)
+
+
   controlStructures(element)
+
+
   arraysAndObjects(element)
+
+
   domAndEvents(element)
+
+
   domManipulation(element)
+
 }
 
 // du kan använda kontrollstrukturer och variabler etc. i 
