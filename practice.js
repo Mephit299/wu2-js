@@ -99,13 +99,22 @@ function såDåligKodSomMöjligt(element){
   let i = 0
   while(true){
     try {
-      console.log(yes)
+      yes.addEventListener("click", (e) =>{
+        console.log(";)")
+        yes.style.color =`rgb(${Math.floor(Math.random()*255)}, ${Math.floor(Math.random()*255)}, ${Math.floor(Math.random()*255)})`
+        yes.style.fontSize = trevligheter + "ch"
+        trevligheter++
+        window.open("https://www.youtube.com")
+      })
+      i++
     } catch (error) {
-      console.log("pog")
-      var yes = 1;
+      var yes = document.createElement("span")
+      element.appendChild(yes)
+      yes.innerHTML="ok"
+      var trevligheter = 2;
     }
-    i++
-    if(i === 10)
+    
+    if(i > 0)
     break
     
   
